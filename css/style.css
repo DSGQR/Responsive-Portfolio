@@ -297,11 +297,13 @@ body {
     }
 
     #logo {
+      float: left;
       width: 100%;
     }
 
     nav {
-      margin: 8px 182px 8px 0;
+      display: block;
+      margin: 8px 80px 8px 0;
     }
 
     h1 {
