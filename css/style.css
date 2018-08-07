@@ -284,6 +284,10 @@ body {
 
 
   @media only screen and (max-width: 640px)  {
+    #masthead {
+      text-align: center;
+    }
+
     .auth-image {
       max-width: 100%;
       height: auto;
@@ -297,13 +301,18 @@ body {
     }
 
     #logo {
-      float: left;
       width: 100%;
     }
 
-    nav {
-      margin: 8px 80px 8px 0;
+    nav a:first-child {
+      margin-left: 0;
+      padding-left: 0;
     }
+
+    nav {
+      margin: 8px 40px 8px 0;
+    }
+
 
     h1 {
       margin-top: 0;
